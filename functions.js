@@ -19,7 +19,7 @@ function getBookById(bookId, booksArray) {
 function getAuthorByName(authorName, authors) {
   let x = undefined;
   authors.find(author => {
-    if (author.name.toLowercase() === authorName.toLowercase()) {
+    if (author.name.toLowerCase() === authorName.toLowerCase()) {
       console.log(author);
       x = author;
     }
